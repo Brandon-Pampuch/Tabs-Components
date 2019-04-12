@@ -1,0 +1,24 @@
+{
+  "name": "tabs-components",
+  "version": "1.0.0",
+  "description": "Topics:",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler LESS CSS index.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/Tabs-Components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/Tabs-Components/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/Tabs-Components#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0"
+  }
+}

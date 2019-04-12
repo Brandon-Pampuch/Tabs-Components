@@ -28,6 +28,9 @@
   align-items: center;
   margin-top: 10px;
   border: 2.5px solid #931d25;
+  height: 150px;
+  transition: height 0.2s;
+  overflow: hidden;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -42,7 +45,12 @@
   background-color: #931d25;
 }
 .dropdown .dropdown-hidden {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  border: 0;
+}
+.dropdown .dropdown-hidden .dropdown-show {
+  height: 150px;
 }
 .tabs {
   width: 100%;
